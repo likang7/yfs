@@ -1,0 +1,589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"look",
+				"lookupinode(inum parent, const std::string &name, inum &child)	int"
+			],
+			[
+				"pa",
+				"padding	std::string"
+			],
+			[
+				"re",
+				"readfile(inum inum, size_t size, off_t off, std::string &buf)	int"
+			],
+			[
+				"s",
+				"size() const	size_type"
+			],
+			[
+				"find",
+				"find_first_of(_CharT __c) const	size_type"
+			],
+			[
+				"find_fir",
+				"find_first_of(const _CharT *__s, size_type __pos, size_type __n) const	size_type"
+			],
+			[
+				"find_f",
+				"find_first_not_of(_CharT __c) const	size_type"
+			],
+			[
+				"map",
+				"map<typename _Key, typename _Tp>	class"
+			],
+			[
+				"printf",
+				"printf(const char *restrict __format, ...)	int"
+			],
+			[
+				"Fo",
+				"FORGOTTEN"
+			],
+			[
+				"reply",
+				"replys"
+			],
+			[
+				"rep",
+				"replys"
+			],
+			[
+				"reply_",
+				"reply_window_"
+			],
+			[
+				"repl",
+				"reply_window_"
+			],
+			[
+				"locks",
+				"lockstate"
+			],
+			[
+				"lock",
+				"lockstate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "fuse.cc",
+			"settings":
+			{
+				"buffer_size": 15599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "extent_server.h",
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "yfs_client.h",
+			"settings":
+			{
+				"buffer_size": 1377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "yfs_client.cc",
+			"settings":
+			{
+				"buffer_size": 6838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "extent_server.cc",
+			"settings":
+			{
+				"buffer_size": 2314,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 309.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"subl",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"LIST",
+				"Package Control: List Packages"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"oa",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/tmp/fuse.cc",
+		"/home/lk/lab/extent_client.h",
+		"/home/lk/lab/extent_server",
+		"/home/lk/lab/lock_protocol.h",
+		"/home/lk/lab/extent_client.cc",
+		"/home/lk/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/lk/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/media/lk/1321/lab/yfs_client.cc",
+		"/media/lk/1321/lab/yfs_client.h",
+		"/media/lk/1321/lab/fuse.cc",
+		"/media/lk/1321/lab/extent_client.d",
+		"/home/lk/Desktop/lab/.tags_sorted_by_file",
+		"/home/lk/Desktop/lab/extent_client.cc",
+		"/home/lk/Desktop/lab/rpc/slock.h",
+		"/home/lk/Desktop/lab/rpc/fifo.h",
+		"/home/lk/Desktop/lab/rpc/marshall.h",
+		"/home/lk/Desktop/lab/lab2.sublime-project",
+		"/home/lk/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/home/lk/Desktop/lab/extent_smain.cc",
+		"/home/lk/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/lk/Desktop/lab/rpc/rpc.h",
+		"/home/lk/Desktop/lab/rpc/rpc.cc",
+		"/home/lk/.config/sublime-text-2/Packages/User/makefile.sublime-build",
+		"/home/lk/Desktop/lab/Makefile",
+		"/home/lk/Desktop/lab/fuse.cc",
+		"/home/lk/Desktop/lab/extent_client.d",
+		"/tmp/extent_server-1.h",
+		"/tmp/extent_server-1.cc",
+		"/home/lk/Desktop/lab/lock_client.cc",
+		"/home/lk/Desktop/lab/.tags",
+		"/home/lk/Desktop/lab/tags",
+		"/home/lk/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/home/lk/Desktop/lab/lock_smain.cc",
+		"/home/lk/Desktop/lab/lock_server.h",
+		"/home/lk/Desktop/lab/lock_server.cc",
+		"/home/lk/Desktop/lab/lock_client.h",
+		"/home/lk/Desktop/lab/lock_protocol.h",
+		"/home/lk/Desktop/labfuck/rpc/rpc.cc",
+		"/home/lk/Documents/haskell/my.hs",
+		"/home/lk/Documents/code/2.cpp",
+		"/home/lk/Documents/code/practice.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"find",
+			"lab 2",
+			"Lab",
+			"fuseserver_setattr",
+			"lab 2",
+			"read",
+			"get",
+			"cout",
+			"read",
+			"setattr",
+			"getattr",
+			"getdir",
+			"getdir ",
+			"getattr -> ",
+			"extent_protocol",
+			"checkduplicate_and_update",
+			"fuseserver_read",
+			"fuseserver_lookup",
+			"fuse_reply_err",
+			"fuseserver_createhelper",
+			"fuseserver_create",
+			"http",
+			"checkduplicate",
+			"checkdu",
+			"last_xidrep",
+			"add_reply",
+			"checkduplicate_and_update",
+			"xid_rep_window_",
+			"clt_nonce_",
+			"req_header h",
+			"req_header h(ca.xid, proc, clt_nonce_, srv_nonce_, xid_rep_window_.front())",
+			"req_header",
+			"connection",
+			"cb_present",
+			":ScopedLock",
+			"::ScopedLock",
+			"ScopedLock",
+			"free_reply_window",
+			"req_header",
+			"free_reply_window",
+			"checkduplicate_and_update"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "fuse.cc",
+					"settings":
+					{
+						"buffer_size": 15599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14908,
+								14908
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8767.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "extent_server.h",
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "yfs_client.h",
+					"settings":
+					{
+						"buffer_size": 1377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1364,
+								1364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "yfs_client.cc",
+					"settings":
+					{
+						"buffer_size": 6838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3341,
+								3341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4230.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "extent_server.cc",
+					"settings":
+					{
+						"buffer_size": 2314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1900,
+								1900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1071.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"exs",
+				"extent_server.h"
+			],
+			[
+				"ex.h",
+				"extent_client.h"
+			],
+			[
+				"e",
+				"extent_server"
+			],
+			[
+				"",
+				"fuse.cc"
+			],
+			[
+				"yf.cc",
+				"yfs_client.cc"
+			],
+			[
+				"ys",
+				"yfs_client.h"
+			],
+			[
+				"f",
+				"fuse.cc"
+			],
+			[
+				"extent",
+				"extent_client.cc"
+			],
+			[
+				"extent_s",
+				"extent_server.h"
+			],
+			[
+				"ex",
+				"extent_client.cc"
+			],
+			[
+				"y",
+				"yfs_client.cc"
+			],
+			[
+				"yf",
+				"yfs_client.h"
+			],
+			[
+				"fucc",
+				"fuse.cc"
+			],
+			[
+				"tags",
+				"tags"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
