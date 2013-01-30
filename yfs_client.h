@@ -6,9 +6,12 @@
 #include "extent_client.h"
 #include <vector>
 
+#include "lock_protocol.h"
+#include "lock_client.h"
 
 class yfs_client {
   extent_client *ec;
+  lock_client lockclient;
  public:
 
   typedef unsigned long long inum;
@@ -35,6 +38,8 @@ class yfs_client {
   static std::string filename(inum);
   static inum n2i(std::string);
   inum generate_inum(bool isdir);
+  size_t lookup(const std::string& pbuf, const std::string& cstr, 
+    yfs_client::dirent& d);
  public:
 
   yfs_client(std::string, std::string);
@@ -49,8 +54,7 @@ class yfs_client {
            inum &);
   int create(inum, const std::string,
             mode_t mode, int isdir, inum &);
-  int remove(inum inum, const std::string name,
-            int actondir, int &ans);
+  int remove(inum inum, const std::string name);
   int readdir(inum inum,
              std::vector<dirent> &ans);
   int setattr(inum inum, fileinfo& attr);

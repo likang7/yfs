@@ -4,68 +4,40 @@
 		"selected_items":
 		[
 			[
-				"look",
-				"lookupinode(inum parent, const std::string &name, inum &child)	int"
-			],
-			[
-				"pa",
-				"padding	std::string"
-			],
-			[
-				"re",
-				"readfile(inum inum, size_t size, off_t off, std::string &buf)	int"
+				"append",
+				"append(size_type __n, _CharT __c)	basic_string<_CharT, _Traits, _Alloc> &"
 			],
 			[
 				"s",
-				"size() const	size_type"
+				"substr() const	basic_string<_CharT, _Traits, _Alloc>"
 			],
 			[
-				"find",
-				"find_first_of(_CharT __c) const	size_type"
+				"readfile",
+				"readfile(inum inum, size_t size, unsigned long off, std::string &buf)	int"
 			],
 			[
-				"find_fir",
-				"find_first_of(const _CharT *__s, size_type __pos, size_type __n) const	size_type"
+				"yfs",
+				"yfs_client	class"
 			],
 			[
-				"find_f",
-				"find_first_not_of(_CharT __c) const	size_type"
+				"app",
+				"append(size_type __n, _CharT __c)	basic_string<_CharT, _Traits, _Alloc> &"
 			],
 			[
-				"map",
-				"map<typename _Key, typename _Tp>	class"
+				"m",
+				"st_mtim	struct timespec"
 			],
 			[
-				"printf",
-				"printf(const char *restrict __format, ...)	int"
+				"exten",
+				"extent_server"
 			],
 			[
-				"Fo",
-				"FORGOTTEN"
+				"extent",
+				"extent"
 			],
 			[
-				"reply",
-				"replys"
-			],
-			[
-				"rep",
-				"replys"
-			],
-			[
-				"reply_",
-				"reply_window_"
-			],
-			[
-				"repl",
-				"reply_window_"
-			],
-			[
-				"locks",
-				"lockstate"
-			],
-			[
-				"lock",
-				"lockstate"
+				"res",
+				"result2"
 			]
 		]
 	},
@@ -75,31 +47,15 @@
 			"file": "fuse.cc",
 			"settings":
 			{
-				"buffer_size": 15599,
+				"buffer_size": 15724,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "extent_server.h",
+			"file": "extent_client.h",
 			"settings":
 			{
-				"buffer_size": 669,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "yfs_client.h",
-			"settings":
-			{
-				"buffer_size": 1377,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "yfs_client.cc",
-			"settings":
-			{
-				"buffer_size": 6838,
+				"buffer_size": 586,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +63,7 @@
 			"file": "extent_server.cc",
 			"settings":
 			{
-				"buffer_size": 2314,
+				"buffer_size": 2185,
 				"line_ending": "Unix"
 			}
 		}
@@ -115,67 +71,55 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 309.0,
+		"height": 138.0,
 		"selected_items":
 		[
 			[
-				":w",
-				":w - Save"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"subl",
+				"clang",
 				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"Default ",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"Default",
+				"Preferences: Key Bindings - Default"
 			],
 			[
 				"list",
 				"Package Control: List Packages"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"LIST",
-				"Package Control: List Packages"
-			],
-			[
-				"INSTA",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
+				"Stack",
 				"Package Control: List Packages"
 			],
 			[
-				"in",
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"package",
-				"Package Control: List Packages"
+				"make",
+				"Set Syntax: Makefile"
 			],
 			[
-				"oa",
-				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"Package Control: Insta",
-				"Package Control: Install Package"
+				"setting us",
+				"Preferences: Settings - User"
 			]
 		],
-		"width": 579.0
+		"width": 554.0
 	},
 	"console":
 	{
-		"height": 146.0
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -188,47 +132,40 @@
 	},
 	"file_history":
 	[
+		"/tmp/yfs_client-1.cc",
+		"/home/lk/lab/extent_server.cc",
 		"/tmp/fuse.cc",
-		"/home/lk/lab/extent_client.h",
-		"/home/lk/lab/extent_server",
-		"/home/lk/lab/lock_protocol.h",
 		"/home/lk/lab/extent_client.cc",
+		"/home/lk/lab/yfs_client.h",
+		"/tmp/fuse-1.cc",
+		"/tmp/yfs_client.cc",
+		"/tmp/extent_client.h",
+		"/tmp/yfs_client.h",
+		"/home/lk/lab/extent_protocol.h",
+		"/tmp/extent_client.cc",
+		"/home/lk/lab/extent_server.h",
+		"/tmp/yfs_protocol.h",
+		"/home/lk/Documents/lab2_ans/extent_server.h",
+		"/home/lk/Documents/lab2_ans/extent_server.cc",
+		"/home/lk/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/home/lk/lab/rpc/rpc.h",
+		"/home/lk/lab/rpc/marshall.h",
+		"/home/lk/lab/rpc/fifo.h",
+		"/home/lk/lab/rpc/slock.h",
+		"/home/lk/lab/lab2.sublime-project",
+		"/home/lk/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/lk/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/lk/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/lk/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/media/lk/1321/lab/yfs_client.cc",
-		"/media/lk/1321/lab/yfs_client.h",
-		"/media/lk/1321/lab/fuse.cc",
-		"/media/lk/1321/lab/extent_client.d",
-		"/home/lk/Desktop/lab/.tags_sorted_by_file",
-		"/home/lk/Desktop/lab/extent_client.cc",
-		"/home/lk/Desktop/lab/rpc/slock.h",
-		"/home/lk/Desktop/lab/rpc/fifo.h",
-		"/home/lk/Desktop/lab/rpc/marshall.h",
-		"/home/lk/Desktop/lab/lab2.sublime-project",
-		"/home/lk/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
-		"/home/lk/Desktop/lab/extent_smain.cc",
-		"/home/lk/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/lk/Desktop/lab/rpc/rpc.h",
-		"/home/lk/Desktop/lab/rpc/rpc.cc",
-		"/home/lk/.config/sublime-text-2/Packages/User/makefile.sublime-build",
-		"/home/lk/Desktop/lab/Makefile",
-		"/home/lk/Desktop/lab/fuse.cc",
-		"/home/lk/Desktop/lab/extent_client.d",
-		"/tmp/extent_server-1.h",
-		"/tmp/extent_server-1.cc",
-		"/home/lk/Desktop/lab/lock_client.cc",
-		"/home/lk/Desktop/lab/.tags",
-		"/home/lk/Desktop/lab/tags",
-		"/home/lk/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
-		"/home/lk/Desktop/lab/lock_smain.cc",
-		"/home/lk/Desktop/lab/lock_server.h",
-		"/home/lk/Desktop/lab/lock_server.cc",
-		"/home/lk/Desktop/lab/lock_client.h",
-		"/home/lk/Desktop/lab/lock_protocol.h",
-		"/home/lk/Desktop/labfuck/rpc/rpc.cc",
-		"/home/lk/Documents/haskell/my.hs",
-		"/home/lk/Documents/code/2.cpp",
-		"/home/lk/Documents/code/practice.cpp"
+		"/home/lk/.config/sublime-text-2/Packages/User/SublimeClang.sublime-settings",
+		"/home/lk/lab/Makefile",
+		"/home/lk/lab/extent_smain.cc",
+		"/home/lk/lab/extent_client.d",
+		"/home/lk/.config/sublime-text-2/Packages/User/make.sublime-build",
+		"/home/lk/Desktop/eventualconsistency.txt",
+		"/home/lk/Code/2501.cpp",
+		"/home/lk/1.c",
+		"/home/lk/Code/25011.cpp"
 	],
 	"find":
 	{
@@ -246,47 +183,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"find",
-			"lab 2",
-			"Lab",
 			"fuseserver_setattr",
-			"lab 2",
-			"read",
-			"get",
-			"cout",
-			"read",
-			"setattr",
+			"fuse_ino_t",
+			"READDIR",
 			"getattr",
-			"getdir",
-			"getdir ",
-			"getattr -> ",
-			"extent_protocol",
-			"checkduplicate_and_update",
-			"fuseserver_read",
-			"fuseserver_lookup",
-			"fuse_reply_err",
-			"fuseserver_createhelper",
-			"fuseserver_create",
-			"http",
-			"checkduplicate",
-			"checkdu",
-			"last_xidrep",
-			"add_reply",
-			"checkduplicate_and_update",
-			"xid_rep_window_",
-			"clt_nonce_",
-			"req_header h",
-			"req_header h(ca.xid, proc, clt_nonce_, srv_nonce_, xid_rep_window_.front())",
-			"req_header",
-			"connection",
-			"cb_present",
-			":ScopedLock",
-			"::ScopedLock",
-			"ScopedLock",
-			"free_reply_window",
-			"req_header",
-			"free_reply_window",
-			"checkduplicate_and_update"
+			"id",
+			"yfsc",
+			"lookup",
+			"creat",
+			"fuse_ino_t",
+			"();\n",
+			"proxy",
+			"go to ",
+			"get",
+			"put",
+			"{\n",
+			"extent_server",
+			"tent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -312,51 +225,48 @@
 					"file": "fuse.cc",
 					"settings":
 					{
-						"buffer_size": 15599,
+						"buffer_size": 15724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14908,
-								14908
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"spell_check": false,
 							"syntax": "Packages/C++/C++.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8767.0,
+						"translation.y": 4203.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "extent_server.h",
+					"file": "extent_client.h",
 					"settings":
 					{
-						"buffer_size": 669,
+						"buffer_size": 586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								643,
-								643
+								584,
+								584
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -372,74 +282,18 @@
 			[
 				{
 					"buffer": 2,
-					"file": "yfs_client.h",
-					"settings":
-					{
-						"buffer_size": 1377,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1364,
-								1364
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 276.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "yfs_client.cc",
-					"settings":
-					{
-						"buffer_size": 6838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3341,
-								3341
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4230.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "extent_server.cc",
 					"settings":
 					{
-						"buffer_size": 2314,
+						"buffer_size": 2185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1900,
-								1900
+								1811,
+								1811
 							]
 						],
 						"settings":
@@ -449,7 +303,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -459,11 +313,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 34.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -497,11 +351,11 @@
 	"menu_visible": true,
 	"output.clang":
 	{
-		"height": 118.0
+		"height": 112.0
 	},
 	"output.exec":
 	{
-		"height": 118.0
+		"height": 112.0
 	},
 	"replace":
 	{
@@ -514,71 +368,63 @@
 		"selected_items":
 		[
 			[
-				"exs",
-				"extent_server.h"
+				"ex",
+				"extent_server.cc"
 			],
 			[
-				"ex.h",
+				"yfsh",
+				"yfs_client.h"
+			],
+			[
+				"exs",
+				"extent_server.cc"
+			],
+			[
+				"extentc",
+				"extent_client.cc"
+			],
+			[
+				"excl",
 				"extent_client.h"
 			],
 			[
-				"e",
-				"extent_server"
-			],
-			[
-				"",
+				"fuse",
 				"fuse.cc"
 			],
 			[
-				"yf.cc",
-				"yfs_client.cc"
-			],
-			[
-				"ys",
+				"yf.h",
 				"yfs_client.h"
 			],
 			[
-				"f",
-				"fuse.cc"
+				"extent_p",
+				"extent_protocol.h"
 			],
 			[
-				"extent",
-				"extent_client.cc"
+				"extent_ser.cc",
+				"extent_server.cc"
 			],
 			[
-				"extent_s",
+				"exte",
 				"extent_server.h"
 			],
 			[
-				"ex",
-				"extent_client.cc"
+				"extent_server.cc",
+				"extent_server.cc"
 			],
 			[
-				"y",
-				"yfs_client.cc"
-			],
-			[
-				"yf",
-				"yfs_client.h"
-			],
-			[
-				"fucc",
-				"fuse.cc"
-			],
-			[
-				"tags",
-				"tags"
+				"extent",
+				"extent_server.h"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
