@@ -22,6 +22,14 @@ class extent_protocol {
     unsigned int mtime;
     unsigned int ctime;
     unsigned int size;
+    attr(){}
+    attr(unsigned a, unsigned m, unsigned c, unsigned s)
+    {
+        atime = a;
+        mtime = m;
+        ctime = c;
+        size  = s;
+    }
   };
 };
 
